@@ -1,0 +1,185 @@
+/* All Tags*/
+body{
+    font-family: 'Days One', sans-serif;
+}
+
+h2{
+    font-family: "Days One";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+    padding-bottom: 4rem;
+}
+
+/* Sections */
+
+#title{
+background-color: #ff4c68;
+color: #fff;
+}
+
+#features{
+    margin:5% auto 5% auto;
+    padding: 7% 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #fff;
+    position: relative;
+}
+
+/* Iphone image */
+.iphone{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+
+}
+
+/* Navigation pannel */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;    
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.nav-list{
+    padding: 5%;
+    padding-bottom: 4rem;
+}
+
+.nav-link{
+    font-size:1.3rem;
+}
+
+/* Title Section Introduction Area */
+.intro{
+    
+    padding-top: 20%;
+    padding-bottom: 10%;
+    font-size: 3.5rem;
+    font-family: 'Days One', sans-serif; 
+    line-height: 1.5;
+}
+
+/* Download buttons */
+.btn{
+    margin: 5% 3% 5% 0%;
+    width: 175px;
+}
+
+
+/* Features styling */
+
+
+
+.colr {
+    text-align: center;
+    padding: 5%;
+}
+
+.colr i{
+    color: #ef8172;
+    font-size: 3rem;
+}
+
+.colr h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 16px;
+}
+
+.colr p{
+    color:#8f8f8f;
+    line-height: 2;
+}
+
+.colr i:hover{
+    color: #FF3D68;
+}
+
+/* Only for Computer */
+@media only screen and (max-width:1000px) {
+    #title{
+        text-align: center;
+    }
+    #dog_cell {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
+/* Testimonals */
+#testimonials{
+    padding: 7% 3%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 1.5% 10%;    
+}
+
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing{
+    padding: 3% 2%;
+}
+
+
+/* Call To Action */
+
+#cta{
+    text-align: center;
+    padding: 7% 15% 2%;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.cta-div{
+    padding: 2% 2%;
+}
+
+.cta h1{
+    font-size: 2rem;
+    
+}
+
+/* Footer Section */
+
+#footer {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+#footer i {
+    margin: 3% 1%;
+    color: #000;
+}
